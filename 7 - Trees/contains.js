@@ -27,7 +27,7 @@ class BST{
                 }
                 temp = temp.left;
             }else{
-                if(temp.left === null){
+                if(temp.right === null){
                     temp.right = newNode;
                     return this;
                 }
